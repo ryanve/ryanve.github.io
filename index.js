@@ -1,7 +1,7 @@
 $.get('https://api.github.com/users/ryanve/repos?sort=pushed&per_page=200', function(repos) {
 
   repos = repos.filter(function(o) {
-    return !o.fork && !o.private && o.language && o.homepage && o.description
+    return !o.fork && !o.private && o.language && o.homepage && o.description && o.name !== 'ryanve.github.io'
   }).map(function(o) {
     return {
       name: o.name,
