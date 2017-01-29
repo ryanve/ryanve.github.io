@@ -25,6 +25,8 @@ html {
   background: WhiteSmoke;
   color: Black;
   font: 1.125em/2 sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
 }
 
 body {
