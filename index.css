@@ -1,0 +1,59 @@
+html {
+  background: whitesmoke;
+  color: black;
+}
+
+:focus {
+  outline-color: SlateBlue;
+}
+
+:link,
+:visited {
+  color: SlateBlue;
+}
+
+*,
+:before,
+:after {
+  box-sizing: border-box;
+}
+
+html {
+  font: 1.125em/2 sans-serif;
+}
+
+body {
+  width: 100%;
+  margin: 0 auto;
+  padding: 2em;
+}
+
+a {
+  touch-action: manipulation;
+  text-decoration: none;
+}
+
+:link:hover { 
+  text-decoration: underline;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: block;
+}
+
+li a {
+  display: block;
+  background: lavender;
+  padding: .5rem 1rem;
+  margin-bottom: .2rem;
+}
+
+h1 { 
+  margin-top: 0;
+  font-size: 1.6em;
+}
