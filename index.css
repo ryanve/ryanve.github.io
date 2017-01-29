@@ -1,6 +1,15 @@
-html {
-  background: whitesmoke;
-  color: black;
+*,
+:before,
+:after {
+  box-sizing: border-box;
+}
+
+a {
+  touch-action: manipulation;
+}
+
+:link:not(:hover) { 
+  text-decoration: none;
 }
 
 :focus {
@@ -12,13 +21,9 @@ html {
   color: SlateBlue;
 }
 
-*,
-:before,
-:after {
-  box-sizing: border-box;
-}
-
 html {
+  background: WhiteSmoke;
+  color: Black;
   font: 1.125em/2 sans-serif;
 }
 
@@ -28,13 +33,9 @@ body {
   padding: 2em;
 }
 
-a {
-  touch-action: manipulation;
-  text-decoration: none;
-}
-
-:link:hover { 
-  text-decoration: underline;
+h1 { 
+  margin-top: 0;
+  font-size: 1.6em;
 }
 
 ul {
@@ -48,12 +49,7 @@ li {
 
 li a {
   display: block;
-  background: lavender;
   padding: .5rem 1rem;
   margin-bottom: .2rem;
-}
-
-h1 { 
-  margin-top: 0;
-  font-size: 1.6em;
+  background: Lavender;
 }
