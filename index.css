@@ -1,10 +1,10 @@
 * { box-sizing: border-box }
 a { touch-action: manipulation }
-:focus { outline-color: Navy }
+:focus { outline-color: Black }
 :link, :visited { color: inherit }
 .decor:not(:focus):not(:hover) { text-decoration: none }
-.scheme-1 { color: Indigo; background: Lavender }
-.scheme-2 { color: Indigo; background: Coral }
+.scheme-1 { color: Yellow; background: BlueViolet }
+.scheme-2 { color: BlueViolet; background: Yellow }
 html { font: 1.125em/1.625 sans-serif; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100% }
 body { width: 100%; margin: 0 auto; padding: 2em }
 h1 { margin-top: 0; font-size: 1.6em }
