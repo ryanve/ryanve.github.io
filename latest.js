@@ -9,7 +9,7 @@ $.get('https://api.github.com/users/ryanve/repos?sort=pushed&per_page=200', func
       href: o.has_pages ? o.homepage : o.html_url
     }
   }).map(function(o) {
-    return '<li class="block"><a class="scheme-1 block stripe decor" href="' + o.href + '"><b>' + o.name + '</b>: ' +  o.description + '</a></li>'
+    return '<li class="block"><a class="gamma block stripe decor" href="' + o.href + '"><b>' + o.name + '</b>: ' +  o.description + '</a></li>'
   });
 
   $('[data-ajax=repos]').html(repos.join(''))
